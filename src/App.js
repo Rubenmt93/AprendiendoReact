@@ -1,8 +1,11 @@
 import './main.css';
 import './button'
 import Button from './button';
-function App() {
-  
+const App =()  => {
+  const flag=true
+  if( flag){
+    return <p> mi variable dio true</p>
+  }
   return (
     <div>
       <h1> Hola Mundo</h1>
